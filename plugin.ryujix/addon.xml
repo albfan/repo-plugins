@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="org.ryujinx.plugin"
+       version="2.4.0"
+       name="Ryujinx"
+       provider-name="albfan">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.pil" version="5.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>executable game</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Ryujinx games on Kodi</summary>
+        <description lang="en_GB">Ryujinx frontend for Kodi.</description>
+        <assets>
+            <icon>Ryujinx.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources\screenshot-01.jpg</screenshot>
+            <screenshot>resources\screenshot-02.jpg</screenshot>
+            <screenshot>resources\screenshot-03.jpg</screenshot>    
+        </assets>
+        <news>See ryujinx.org for latest updates</news>
+    </extension>
+</addon>
